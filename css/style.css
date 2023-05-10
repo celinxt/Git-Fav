@@ -143,3 +143,42 @@ a {
 a p:hover {
   transform: scale(1.1, 1.1);
 }
+
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  #icon {
+    margin: auto;
+  }
+
+  #div-user {
+    flex-direction: column;
+  }
+
+  #div-user input {
+    margin: auto;
+    width: 22rem;
+  }
+
+  #div-user button img {
+    width: 22rem;
+  }
+
+  table {
+    border: none;
+    width: 40rem;
+  }
+
+  table tbody tr td {
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+
+  table thead {
+    display: none;
+  }
+}
