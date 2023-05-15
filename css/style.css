@@ -169,6 +169,7 @@ a p:hover {
 
   table {
     border: none;
+    background: none;
     width: 40rem;
   }
 
